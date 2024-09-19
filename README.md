@@ -66,3 +66,10 @@ Então desligue o interruptor A e ligue o segundo interruptor (Interruptor B) e 
 Agora vá a uma das salas das lâmpadas, três coisas podem acontecer, a lâmpada esta apagada e fria, ou seja, é controlada pelo terceiro interruptor (Interruptor C) ou a lâmpada esta acesa e é controlada pelo interruptor B ou a lâmpada esta apagada e quente, sendo assim, controlada pelo interruptor A. 
 
 Depois de definir qual interruptor controla a primeira lâmpada visitada, vá a próxima sala e faça o mesmo teste. Assim que definir o interruptor da segunda lâmpada, a última sala não precisa ser aberta e a lâmpada nela presente será controlada pelo interruptor que não controla nenhuma das lâmpadas visitadas.
+
+
+### Dica
+
+Para compilar os arquivos de código de maneira fácil e online, utilizar o site [onlinegdb](https://www.onlinegdb.com/).
+
+
