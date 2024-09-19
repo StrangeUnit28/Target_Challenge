@@ -32,7 +32,7 @@ Observe o trecho de código abaixo:
 Ao final do processamento, qual será o valor da variável SOMA?
 
 
-Para resolver essa questão, apenas compilei o código mostrado acima em C e obtive como output que o valor de **SOMA = 77**. Aqui é possível ver o [*Arquivo da solução*](respostas/questao_3.c).
+Para resolver essa questão, apenas compilei o código mostrado acima em C e obtive como output que o valor de **SOMA = 77**. Aqui é possível ver o [**Arquivo da solução**](respostas/questao_3.c).
 
 
 ### Quarta Questão
@@ -59,4 +59,10 @@ Sequências preenchidas e explicadas abaixo:
 
 Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
-**Solução:** Para resolver esse problema usando apenas duas idas até uma das salas das lâmpadas, basta que um interruptor seja ligado (Interruptor A), deixe ele ligado por um tempo, esse o suficiente para que a lâmpada ligada a ele aqueça. Enão desligue o interruptor A e ligue o segundo (Interruptor B) e deixe-o ligado. Agora vá a uma das salas das lâmpadas, três coisas podem acontecer, a lâmpada esta apagada e fria, ou seja, é controlada pelo terceiro interruptor (Interruptor C) ou a lâmpada esta acesa e é controlada pelo interruptor B ou a lâmpada esta apagada e quente, sendo assim, controlada pelo interruptor A. Depois de definir qual interruptor controla a primeira lâmpada visitada, vá a próxima sala e faça o mesmo teste. Assim que definir o interruptor da segunda lâmpada, a última sala não precisa ser aberta e a lâmpada nela presente será controlada pelo interruptor que não controla nenhuma das lâmpadas visitadas.
+**Solução:** Para resolver esse problema usando apenas duas idas até uma das salas das lâmpadas, basta que um interruptor seja ligado (Interruptor A), deixe ele ligado por um tempo, esse o suficiente para que a lâmpada ligada a ele aqueça. 
+
+Então desligue o interruptor A e ligue o segundo interruptor (Interruptor B) e deixe-o ligado. 
+
+Agora vá a uma das salas das lâmpadas, três coisas podem acontecer, a lâmpada esta apagada e fria, ou seja, é controlada pelo terceiro interruptor (Interruptor C) ou a lâmpada esta acesa e é controlada pelo interruptor B ou a lâmpada esta apagada e quente, sendo assim, controlada pelo interruptor A. 
+
+Depois de definir qual interruptor controla a primeira lâmpada visitada, vá a próxima sala e faça o mesmo teste. Assim que definir o interruptor da segunda lâmpada, a última sala não precisa ser aberta e a lâmpada nela presente será controlada pelo interruptor que não controla nenhuma das lâmpadas visitadas.
